@@ -1,0 +1,52 @@
+!<thin>
+//                                              422       `
+mem.o/
+random.o/
+ttyprintk.o/
+misc.o/
+virtio_console.o/
+hw_random/core.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/eventlog/of.o/
+tpm/tpm_tis_core.o/
+tpm/tpm_tis.o/
+tpm/tpm_crb.o/
+/0              0           0     0     644     471328    `
+/7              0           0     0     644     648360    `
+/17             0           0     0     644     216888    `
+/30             0           0     0     644     216136    `
+/38             0           0     0     644     844072    `
+/56             0           0     0     644     296368    `
+/74             0           0     0     644     266936    `
+/90             0           0     0     644     306088    `
+/112            0           0     0     644     236720    `
+/127            0           0     0     644     284744    `
+/148            0           0     0     644     282056    `
+/164            0           0     0     644     359768    `
+/180            0           0     0     644     227136    `
+/197            0           0     0     644     264160    `
+/215            0           0     0     644     258112    `
+/232            0           0     0     644     227184    `
+/255            0           0     0     644     231536    `
+/276            0           0     0     644     227200    `
+/297            0           0     0     644     253384    `
+/312            0           0     0     644     218128    `
+/333            0           0     0     644     218240    `
+/353            0           0     0     644     217680    `
+/372            0           0     0     644     369088    `
+/392            0           0     0     644     291128    `
+/407            0           0     0     644     317784    `

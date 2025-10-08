@@ -1,0 +1,2 @@
+drivers/power/reset/syscon-reboot-mode.o
+

@@ -1,0 +1,27 @@
+!<thin>
+//                                              192       `
+fec_main.o/
+fec_ptp.o/
+xgmac_mdio.o/
+fman/fman_muram.o/
+fman/fman.o/
+fman/fman_sp.o/
+fman/fman_keygen.o/
+fman/fman_port.o/
+fman/mac.o/
+fman/fman_dtsec.o/
+fman/fman_memac.o/
+fman/fman_tgec.o/
+
+/0              0           0     0     644     1289144   `
+/12             0           0     0     644     490824    `
+/23             0           0     0     644     228792    `
+/37             0           0     0     644     92544     `
+/56             0           0     0     644     405560    `
+/69             0           0     0     644     116024    `
+/85             0           0     0     644     108776    `
+/105            0           0     0     644     274192    `
+/123            0           0     0     644     444896    `
+/135            0           0     0     644     326328    `
+/154            0           0     0     644     436744    `
+/173            0           0     0     644     257384    `

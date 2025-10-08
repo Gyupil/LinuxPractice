@@ -1,0 +1,30 @@
+!<thin>
+//                                              238       `
+pcie-designware.o/
+pcie-designware-host.o/
+pcie-designware-ep.o/
+pcie-designware-plat.o/
+pci-imx6.o/
+pci-keystone.o/
+pci-layerscape.o/
+pci-layerscape-ep.o/
+pcie-qcom.o/
+pcie-armada8k.o/
+pcie-kirin.o/
+pcie-histb.o/
+pcie-al.o/
+pcie-hisi.o/
+/0              0           0     0     644     249920    `
+/19             0           0     0     644     297288    `
+/43             0           0     0     644     287992    `
+/65             0           0     0     644     225760    `
+/89             0           0     0     644     312288    `
+/101            0           0     0     644     370496    `
+/117            0           0     0     644     227232    `
+/135            0           0     0     644     203304    `
+/156            0           0     0     644     338664    `
+/169            0           0     0     644     231464    `
+/186            0           0     0     644     260752    `
+/200            0           0     0     644     275512    `
+/214            0           0     0     644     302280    `
+/225            0           0     0     644     290400    `

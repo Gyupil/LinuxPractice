@@ -1,0 +1,5 @@
+bm1880-sophon-edge.o: arch/arm64/boot/dts/bitmain/bm1880-sophon-edge.dts \
+ arch/arm64/boot/dts/bitmain/bm1880.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/reset/bitmain,bm1880-reset.h

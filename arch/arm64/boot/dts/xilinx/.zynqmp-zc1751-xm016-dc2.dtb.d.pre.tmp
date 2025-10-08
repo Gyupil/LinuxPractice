@@ -1,0 +1,5 @@
+zynqmp-zc1751-xm016-dc2.o: \
+ arch/arm64/boot/dts/xilinx/zynqmp-zc1751-xm016-dc2.dts \
+ arch/arm64/boot/dts/xilinx/zynqmp.dtsi \
+ arch/arm64/boot/dts/xilinx/zynqmp-clk.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

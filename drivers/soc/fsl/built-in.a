@@ -1,0 +1,18 @@
+!<thin>
+//                                              134       `
+qbman/bman_ccsr.o/
+qbman/qman_ccsr.o/
+qbman/bman_portal.o/
+qbman/qman_portal.o/
+qbman/bman.o/
+qbman/qman.o/
+qbman/dpaa_sys.o/
+guts.o/
+/0              0           0     0     644     233080    `
+/19             0           0     0     644     294016    `
+/38             0           0     0     644     249984    `
+/59             0           0     0     644     274944    `
+/80             0           0     0     644     274216    `
+/94             0           0     0     644     579064    `
+/108            0           0     0     644     187488    `
+/126            0           0     0     644     150496    `

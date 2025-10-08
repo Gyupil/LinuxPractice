@@ -1,0 +1,2 @@
+drivers/tty/serial/qcom_geni_serial.o
+

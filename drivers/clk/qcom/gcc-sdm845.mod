@@ -1,0 +1,2 @@
+drivers/clk/qcom/gcc-sdm845.o
+

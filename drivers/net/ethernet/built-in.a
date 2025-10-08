@@ -1,0 +1,33 @@
+!<thin>
+//                                              372       `
+broadcom/bgmac.o/
+broadcom/bgmac-platform.o/
+freescale/fec_main.o/
+freescale/fec_ptp.o/
+freescale/xgmac_mdio.o/
+freescale/fman/fman_muram.o/
+freescale/fman/fman.o/
+freescale/fman/fman_sp.o/
+freescale/fman/fman_keygen.o/
+freescale/fman/fman_port.o/
+freescale/fman/mac.o/
+freescale/fman/fman_dtsec.o/
+freescale/fman/fman_memac.o/
+freescale/fman/fman_tgec.o/
+smsc/smc91x.o/
+
+/0              0           0     0     644     743144    `
+/18             0           0     0     644     415656    `
+/45             0           0     0     644     1289144   `
+/67             0           0     0     644     490824    `
+/88             0           0     0     644     228792    `
+/112            0           0     0     644     92544     `
+/141            0           0     0     644     405560    `
+/164            0           0     0     644     116024    `
+/190            0           0     0     644     108776    `
+/220            0           0     0     644     274192    `
+/248            0           0     0     644     444896    `
+/270            0           0     0     644     326328    `
+/299            0           0     0     644     436744    `
+/328            0           0     0     644     257384    `
+/356            0           0     0     644     990952    `

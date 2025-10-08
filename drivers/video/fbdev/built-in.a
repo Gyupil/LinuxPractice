@@ -1,0 +1,55 @@
+!<thin>
+//                                              408       `
+core/fb_cmdline.o/
+core/fb_notify.o/
+core/fbmem.o/
+core/fbmon.o/
+core/fbcmap.o/
+core/fbsysfs.o/
+core/modedb.o/
+core/fbcvt.o/
+core/fb_defio.o/
+core/fbcon.o/
+core/bitblit.o/
+core/softcursor.o/
+core/tileblit.o/
+core/fbcon_rotate.o/
+core/fbcon_cw.o/
+core/fbcon_ud.o/
+core/fbcon_ccw.o/
+core/cfbfillrect.o/
+core/cfbcopyarea.o/
+core/cfbimgblt.o/
+imsttfb.o/
+amba-clcd.o/
+asiliantfb.o/
+efifb.o/
+mx3fb.o/
+simplefb.o/
+
+/0              0           0     0     644     238800    `
+/19             0           0     0     644     234800    `
+/37             0           0     0     644     891632    `
+/51             0           0     0     644     304080    `
+/65             0           0     0     644     297496    `
+/80             0           0     0     644     284240    `
+/96             0           0     0     644     294128    `
+/111            0           0     0     644     243224    `
+/125            0           0     0     644     371056    `
+/142            0           0     0     644     580864    `
+/156            0           0     0     644     282408    `
+/172            0           0     0     644     254136    `
+/191            0           0     0     644     265920    `
+/208            0           0     0     644     266328    `
+/229            0           0     0     644     284008    `
+/246            0           0     0     644     284976    `
+/263            0           0     0     644     284816    `
+/281            0           0     0     644     264800    `
+/301            0           0     0     644     267624    `
+/321            0           0     0     644     244880    `
+/339            0           0     0     644     418600    `
+/350            0           0     0     644     327032    `
+/363            0           0     0     644     336928    `
+/377            0           0     0     644     308872    `
+/386            0           0     0     644     476168    `
+/395            0           0     0     644     287176    `

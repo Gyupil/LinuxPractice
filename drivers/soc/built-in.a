@@ -1,0 +1,97 @@
+!<thin>
+//                                              1036      `
+actions/owl-sps-helper.o/
+actions/owl-sps.o/
+bcm/bcm2835-power.o/
+bcm/raspberrypi-power.o/
+bcm/brcmstb/common.o/
+bcm/brcmstb/biuctrl.o/
+fsl/qbman/bman_ccsr.o/
+fsl/qbman/qman_ccsr.o/
+fsl/qbman/bman_portal.o/
+fsl/qbman/qman_portal.o/
+fsl/qbman/bman.o/
+fsl/qbman/qman.o/
+fsl/qbman/dpaa_sys.o/
+fsl/guts.o/
+imx/gpcv2.o/
+imx/soc-imx8.o/
+imx/soc-imx-scu.o/
+mediatek/mtk-infracfg.o/
+mediatek/mtk-scpsys.o/
+amlogic/meson-clk-measure.o/
+amlogic/meson-gx-socinfo.o/
+amlogic/meson-gx-pwrc-vpu.o/
+amlogic/meson-mx-socinfo.o/
+amlogic/meson-ee-pwrc.o/
+qcom/cmd-db.o/
+qcom/rpmh-rsc.o/
+qcom/rpmh.o/
+qcom/smem_state.o/
+qcom/rpmhpd.o/
+renesas/renesas-soc.o/
+renesas/r8a774a1-sysc.o/
+renesas/r8a774c0-sysc.o/
+renesas/r8a7795-sysc.o/
+renesas/r8a7796-sysc.o/
+renesas/r8a77965-sysc.o/
+renesas/r8a77970-sysc.o/
+renesas/r8a77980-sysc.o/
+renesas/r8a77990-sysc.o/
+renesas/r8a77995-sysc.o/
+renesas/rcar-rst.o/
+renesas/rcar-sysc.o/
+rockchip/grf.o/
+rockchip/pm_domains.o/
+sunxi/sunxi_sram.o/
+ti/ti_sci_inta_msi.o/
+xilinx/zynqmp_power.o/
+xilinx/zynqmp_pm_domains.o/
+
+/0              0           0     0     644     74624     `
+/26             0           0     0     644     133336    `
+/45             0           0     0     644     209648    `
+/66             0           0     0     644     155592    `
+/91             0           0     0     644     128600    `
+/113            0           0     0     644     116008    `
+/136            0           0     0     644     233080    `
+/159            0           0     0     644     294016    `
+/182            0           0     0     644     249984    `
+/207            0           0     0     644     274944    `
+/232            0           0     0     644     274216    `
+/250            0           0     0     644     579064    `
+/268            0           0     0     644     187488    `
+/290            0           0     0     644     150496    `
+/302            0           0     0     644     170896    `
+/315            0           0     0     644     133328    `
+/331            0           0     0     644     130352    `
+/350            0           0     0     644     26640     `
+/375            0           0     0     644     171776    `
+/398            0           0     0     644     211096    `
+/427            0           0     0     644     136080    `
+/455            0           0     0     644     149640    `
+/484            0           0     0     644     123600    `
+/512            0           0     0     644     148608    `
+/537            0           0     0     644     132584    `
+/552            0           0     0     644     474992    `
+/569            0           0     0     644     198688    `
+/582            0           0     0     644     152400    `
+/601            0           0     0     644     156952    `
+/616            0           0     0     644     131056    `
+/639            0           0     0     644     10768     `
+/664            0           0     0     644     107256    `
+/689            0           0     0     644     107848    `
+/713            0           0     0     644     10880     `
+/737            0           0     0     644     10504     `
+/762            0           0     0     644     10560     `
+/787            0           0     0     644     11360     `
+/812            0           0     0     644     107312    `
+/837            0           0     0     644     10104     `
+/862            0           0     0     644     111112    `
+/882            0           0     0     644     225120    `
+/903            0           0     0     644     121760    `
+/919            0           0     0     644     188864    `
+/942            0           0     0     644     226560    `
+/962            0           0     0     644     143952    `
+/984            0           0     0     644     313568    `
+/1007           0           0     0     644     173992    `

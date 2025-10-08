@@ -1,0 +1,2 @@
+drivers/pinctrl/qcom/pinctrl-sdm845.o
+

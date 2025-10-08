@@ -1,0 +1,2 @@
+drivers/dma/qcom/bam_dma.o
+

@@ -1,0 +1,6 @@
+rtd1295-probox2-ava.o: \
+ arch/arm64/boot/dts/realtek/rtd1295-probox2-ava.dts \
+ arch/arm64/boot/dts/realtek/rtd1295.dtsi \
+ arch/arm64/boot/dts/realtek/rtd129x.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

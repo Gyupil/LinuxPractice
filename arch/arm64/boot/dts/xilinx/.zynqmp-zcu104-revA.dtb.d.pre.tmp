@@ -1,0 +1,4 @@
+zynqmp-zcu104-revA.o: arch/arm64/boot/dts/xilinx/zynqmp-zcu104-revA.dts \
+ arch/arm64/boot/dts/xilinx/zynqmp.dtsi \
+ arch/arm64/boot/dts/xilinx/zynqmp-clk.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

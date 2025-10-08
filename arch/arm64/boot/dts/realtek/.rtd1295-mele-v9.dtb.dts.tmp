@@ -1,0 +1,176 @@
+# 1 "arch/arm64/boot/dts/realtek/rtd1295-mele-v9.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/realtek/rtd1295-mele-v9.dts"
+
+
+
+
+
+
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/realtek/rtd1295.dtsi" 1
+# 9 "arch/arm64/boot/dts/realtek/rtd1295.dtsi"
+# 1 "arch/arm64/boot/dts/realtek/rtd129x.dtsi" 1
+# 9 "arch/arm64/boot/dts/realtek/rtd129x.dtsi"
+/memreserve/ 0x0000000000000000 0x0000000000030000;
+/memreserve/ 0x000000000001f000 0x0000000000001000;
+/memreserve/ 0x0000000000030000 0x00000000000d0000;
+/memreserve/ 0x0000000001b00000 0x00000000004be000;
+/memreserve/ 0x0000000001ffe000 0x0000000000004000;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 16 "arch/arm64/boot/dts/realtek/rtd129x.dtsi" 2
+
+/ {
+ interrupt-parent = <&gic>;
+ #address-cells = <1>;
+ #size-cells = <1>;
+
+ arm_pmu: arm-pmu {
+  compatible = "arm,cortex-a53-pmu";
+  interrupts = <0 48 4>;
+ };
+
+ soc {
+  compatible = "simple-bus";
+  #address-cells = <1>;
+  #size-cells = <1>;
+
+  ranges = <0x80000000 0x80000000 0x80000000>;
+
+  uart0: serial@98007800 {
+   compatible = "snps,dw-apb-uart";
+   reg = <0x98007800 0x400>;
+   reg-shift = <2>;
+   reg-io-width = <4>;
+   clock-frequency = <27000000>;
+   status = "disabled";
+  };
+
+  uart1: serial@9801b200 {
+   compatible = "snps,dw-apb-uart";
+   reg = <0x9801b200 0x100>;
+   reg-shift = <2>;
+   reg-io-width = <4>;
+   clock-frequency = <432000000>;
+   status = "disabled";
+  };
+
+  uart2: serial@9801b400 {
+   compatible = "snps,dw-apb-uart";
+   reg = <0x9801b400 0x100>;
+   reg-shift = <2>;
+   reg-io-width = <4>;
+   clock-frequency = <432000000>;
+   status = "disabled";
+  };
+
+  gic: interrupt-controller@ff011000 {
+   compatible = "arm,gic-400";
+   reg = <0xff011000 0x1000>,
+         <0xff012000 0x2000>,
+         <0xff014000 0x2000>,
+         <0xff016000 0x2000>;
+   interrupts = <1 9 ((((1 << (4)) - 1) << 8) | 8)>;
+   interrupt-controller;
+   #interrupt-cells = <3>;
+  };
+ };
+};
+# 10 "arch/arm64/boot/dts/realtek/rtd1295.dtsi" 2
+
+/ {
+ compatible = "realtek,rtd1295";
+
+ cpus {
+  #address-cells = <2>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x0>;
+   next-level-cache = <&l2>;
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x1>;
+   next-level-cache = <&l2>;
+  };
+
+  cpu2: cpu@2 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x2>;
+   next-level-cache = <&l2>;
+  };
+
+  cpu3: cpu@3 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x3>;
+   next-level-cache = <&l2>;
+  };
+
+  l2: l2-cache {
+   compatible = "cache";
+  };
+ };
+
+ reserved-memory {
+  #address-cells = <1>;
+  #size-cells = <1>;
+  ranges;
+
+  tee@10100000 {
+   reg = <0x10100000 0xf00000>;
+   no-map;
+  };
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts = <1 13
+   (((0xf) << 8) | 8)>,
+        <1 14
+   (((0xf) << 8) | 8)>,
+        <1 11
+   (((0xf) << 8) | 8)>,
+        <1 10
+   (((0xf) << 8) | 8)>;
+ };
+};
+
+&arm_pmu {
+ interrupt-affinity = <&cpu0>, <&cpu1>, <&cpu2>, <&cpu3>;
+};
+# 10 "arch/arm64/boot/dts/realtek/rtd1295-mele-v9.dts" 2
+
+/ {
+ compatible = "mele,v9", "realtek,rtd1295";
+ model = "MeLE V9";
+
+ memory@0 {
+  device_type = "memory";
+  reg = <0x0 0x80000000>;
+ };
+
+ aliases {
+  serial0 = &uart0;
+ };
+
+ chosen {
+  stdout-path = "serial0:115200n8";
+ };
+};
+
+&uart0 {
+ status = "okay";
+};

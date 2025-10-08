@@ -1,0 +1,2 @@
+drivers/soc/qcom/qcom-geni-se.o
+

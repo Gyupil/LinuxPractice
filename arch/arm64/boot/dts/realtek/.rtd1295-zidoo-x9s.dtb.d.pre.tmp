@@ -1,0 +1,5 @@
+rtd1295-zidoo-x9s.o: arch/arm64/boot/dts/realtek/rtd1295-zidoo-x9s.dts \
+ arch/arm64/boot/dts/realtek/rtd1295.dtsi \
+ arch/arm64/boot/dts/realtek/rtd129x.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

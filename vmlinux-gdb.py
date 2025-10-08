@@ -1,0 +1,1 @@
+/home/gyupil/linux/scripts/gdb/vmlinux-gdb.py

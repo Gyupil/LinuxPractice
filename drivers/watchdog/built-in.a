@@ -1,0 +1,12 @@
+!<thin>
+//                                              90        `
+watchdog_core.o/
+watchdog_dev.o/
+watchdog_pretimeout.o/
+pretimeout_noop.o/
+rtd119x_wdt.o/
+/0              0           0     0     644     168312    `
+/17             0           0     0     644     464888    `
+/33             0           0     0     644     172352    `
+/56             0           0     0     644     124432    `
+/75             0           0     0     644     134888    `

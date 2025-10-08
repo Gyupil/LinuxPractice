@@ -1,0 +1,2 @@
+drivers/gpu/drm/mediatek/mtk_disp_color.o drivers/gpu/drm/mediatek/mtk_disp_ovl.o drivers/gpu/drm/mediatek/mtk_disp_rdma.o drivers/gpu/drm/mediatek/mtk_drm_crtc.o drivers/gpu/drm/mediatek/mtk_drm_ddp.o drivers/gpu/drm/mediatek/mtk_drm_ddp_comp.o drivers/gpu/drm/mediatek/mtk_drm_drv.o drivers/gpu/drm/mediatek/mtk_drm_fb.o drivers/gpu/drm/mediatek/mtk_drm_gem.o drivers/gpu/drm/mediatek/mtk_drm_plane.o drivers/gpu/drm/mediatek/mtk_dsi.o drivers/gpu/drm/mediatek/mtk_mipi_tx.o drivers/gpu/drm/mediatek/mtk_dpi.o
+

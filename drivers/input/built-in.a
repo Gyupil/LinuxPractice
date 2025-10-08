@@ -1,0 +1,22 @@
+!<thin>
+//                                              148       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+mousedev.o/
+evdev.o/
+keyboard/atkbd.o/
+touchscreen/of_touchscreen.o/
+misc/uinput.o/
+/0              0           0     0     644     583808    `
+/9              0           0     0     644     201192    `
+/25             0           0     0     644     190832    `
+/37             0           0     0     644     177472    `
+/53             0           0     0     644     213032    `
+/64             0           0     0     644     409184    `
+/76             0           0     0     644     812624    `
+/85             0           0     0     644     417656    `
+/103            0           0     0     644     185904    `
+/133            0           0     0     644     534144    `

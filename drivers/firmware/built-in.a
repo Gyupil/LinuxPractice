@@ -1,0 +1,85 @@
+!<thin>
+//                                              626       `
+arm_sdei.o/
+dmi_scan.o/
+dmi-id.o/
+memmap.o/
+raspberrypi.o/
+qcom_scm.o/
+qcom_scm-64.o/
+ti_sci.o/
+arm_scmi/bus.o/
+arm_scmi/driver.o/
+arm_scmi/base.o/
+arm_scmi/clock.o/
+arm_scmi/perf.o/
+arm_scmi/power.o/
+arm_scmi/reset.o/
+arm_scmi/sensors.o/
+psci/psci.o/
+meson/meson_sm.o/
+efi/efi-bgrt.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/efivars.o/
+efi/esrt.o/
+efi/cper.o/
+efi/runtime-wrappers.o/
+efi/libstub/lib-ksyms.o/
+efi/arm-init.o/
+efi/arm-runtime.o/
+efi/earlycon.o/
+efi/cper-arm.o/
+imx/imx-dsp.o/
+imx/imx-scu.o/
+imx/misc.o/
+imx/imx-scu-irq.o/
+imx/scu-pd.o/
+xilinx/zynqmp.o/
+
+/0              0           0     0     644     574184    `
+/12             0           0     0     644     308304    `
+/24             0           0     0     644     145080    `
+/34             0           0     0     644     214696    `
+/44             0           0     0     644     223016    `
+/59             0           0     0     644     255240    `
+/71             0           0     0     644     196232    `
+/86             0           0     0     644     587480    `
+/96             0           0     0     644     175992    `
+/112            0           0     0     644     268656    `
+/131            0           0     0     644     121456    `
+/148            0           0     0     644     152560    `
+/166            0           0     0     644     191424    `
+/183            0           0     0     644     132752    `
+/201            0           0     0     644     134032    `
+/219            0           0     0     644     137896    `
+/239            0           0     0     644     356136    `
+/252            0           0     0     644     157448    `
+/270            0           0     0     644     210376    `
+/286            0           0     0     644     346736    `
+/297            0           0     0     644     292560    `
+/309            0           0     0     644     168816    `
+/323            0           0     0     644     194968    `
+/338            0           0     0     644     223488    `
+/349            0           0     0     644     211776    `
+/364            0           0     0     644     201224    `
+/378            0           0     0     644     241432    `
+/393            0           0     0     644     232368    `
+/405            0           0     0     644     282664    `
+/417            0           0     0     644     262664    `
+/441            0           0     0     644     760       `
+/466            0           0     0     644     219368    `
+/482            0           0     0     644     243360    `
+/501            0           0     0     644     225800    `
+/517            0           0     0     644     231280    `
+/533            0           0     0     644     141408    `
+/548            0           0     0     644     167720    `
+/563            0           0     0     644     115152    `
+/575            0           0     0     644     128640    `
+/594            0           0     0     644     156168    `
+/608            0           0     0     644     191024    `

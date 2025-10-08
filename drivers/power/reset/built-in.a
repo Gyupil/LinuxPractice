@@ -1,0 +1,25 @@
+!<thin>
+//                                              200       `
+as3722-poweroff.o/
+gpio-poweroff.o/
+gpio-restart.o/
+hisi-reboot.o/
+msm-poweroff.o/
+ltc2952-poweroff.o/
+restart-poweroff.o/
+vexpress-poweroff.o/
+syscon-reboot.o/
+syscon-poweroff.o/
+sc27xx-poweroff.o/
+
+/0              0           0     0     644     134456    `
+/19             0           0     0     644     137008    `
+/36             0           0     0     644     142840    `
+/52             0           0     0     644     135784    `
+/67             0           0     0     644     132368    `
+/83             0           0     0     644     148200    `
+/103            0           0     0     644     131688    `
+/123            0           0     0     644     134048    `
+/144            0           0     0     644     123120    `
+/161            0           0     0     644     184752    `
+/180            0           0     0     644     112088    `

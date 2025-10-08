@@ -1,0 +1,2 @@
+drivers/char/ipmi/ipmb_dev_int.o
+

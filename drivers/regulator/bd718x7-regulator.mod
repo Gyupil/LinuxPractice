@@ -1,0 +1,2 @@
+drivers/regulator/bd718x7-regulator.o
+

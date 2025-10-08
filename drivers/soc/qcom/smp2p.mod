@@ -1,0 +1,2 @@
+drivers/soc/qcom/smp2p.o
+

@@ -1,0 +1,2 @@
+drivers/soc/qcom/qcom_aoss.o
+

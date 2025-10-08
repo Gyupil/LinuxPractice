@@ -1,0 +1,19 @@
+!<thin>
+//                                              120       `
+core.o/
+reset-berlin.o/
+reset-imx7.o/
+reset-meson.o/
+reset-qcom-aoss.o/
+reset-simple.o/
+reset-sunxi.o/
+reset-zynqmp.o/
+
+/0              0           0     0     644     227232    `
+/8              0           0     0     644     119512    `
+/24             0           0     0     644     133624    `
+/38             0           0     0     644     140368    `
+/53             0           0     0     644     138080    `
+/72             0           0     0     644     145648    `
+/88             0           0     0     644     126256    `
+/103            0           0     0     644     130032    `

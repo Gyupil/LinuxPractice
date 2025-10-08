@@ -1,0 +1,17 @@
+*.o
+*.ko
+*.cmd
+*.mod.c
+*.order
+*.symvers
+vmlinux
+bzImage
+System.map
+.tmp_versions/
+modules.builtin
+# Indexing files
+tags
+cscope.*
+
+# Temporary kernel build files
+.tmp_vmlinux.btf
